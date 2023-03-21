@@ -1,0 +1,29 @@
+.services {
+    margin-bottom: 84px;
+}
+
+.services__card {
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 40px #E3E3E3;
+    border-radius: 24px;
+}
+
+.services__card svg {
+    margin-bottom: 24px;
+}
+
+.services__card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.services__card-descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #63728C;
+}

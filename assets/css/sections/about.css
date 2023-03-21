@@ -1,0 +1,67 @@
+.about__container {
+    display: flex;
+}
+
+.about__img-wrapper {
+    min-width: 426px;
+    position: relative;
+}
+
+.about__img {
+    border-radius: 24px;
+    max-height: 574px;
+}
+
+.about__img-badge {
+    position: absolute;
+    bottom: 8px;
+    left: 32px;
+}
+
+.about__img-badge-name {
+    background: linear-gradient(136.24deg, rgba(255, 255, 255, 0.2) -0.33%, rgba(255, 255, 255, 0) 95.03%), #EB5351;
+    padding: 16px 20px 40px;
+    display: inline-block;
+    border-radius: 24px 24px 0 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.about__img-badge-role {
+    padding: 16px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 24px;
+    background-color: #fff;
+    transform: translateY(-24px);
+}
+
+.about__content {
+    margin-right: 64px;
+    padding-top: 10px;
+}
+
+.about__title {
+    text-align: initial;
+    margin-bottom: 16px;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.about__descr {
+    margin-bottom: 24px;
+}
+
+.about__sub-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.about__sub-descr {
+    margin-bottom: 12px;
+}
