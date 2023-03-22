@@ -51,3 +51,18 @@
     bottom: -84px;
     right: -118px;
 }
+
+.consultation_reverse .consultation__content {
+    padding-left: 0;
+    padding-right: 392px;
+}
+
+.consultation_reverse .consultation__picture {
+    left: initial;
+    right: 50px;
+}
+
+.consultation_reverse .consultation__decor {
+    left: initial;
+    right: -151px;
+}
