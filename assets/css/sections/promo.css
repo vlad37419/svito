@@ -1,6 +1,7 @@
 .promo {
     background-color: #F5F5F5;
     position: relative;
+    overflow: hidden;
 }
 
 .promo__container {
@@ -87,4 +88,106 @@
     height: 508px;
     bottom: 88px;
     right: -142px;
+}
+
+@media (max-width: 1600px) {
+    .promo__container {
+        padding: 96px 50px;
+    }
+
+    .promo__content {
+        max-width: 579px;
+    }
+
+    .promo__slide {
+        background-size: 321px 580px;
+    }
+}
+
+@media (max-width: 991px) {
+    .promo__container {
+        padding: 72px 0 72px 50px;
+    }
+
+    .promo__content {
+        max-width: 357px;
+    }
+
+    .promo__descr {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .promo__btn {
+        padding: 10px 20px;
+        margin-right: 8px;
+    }
+
+    .promo__btn .btn__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .promo__btn:last-child {
+        padding: 10px 20px;
+    }
+
+    .promo__slider {
+        width: 100%;
+    }
+
+    .promo__list {
+        margin-bottom: 24px;
+    }
+
+    .promo__slider + .promo__slider-pagination {
+        width: fit-content;
+        left: initial;
+        right: 42px;
+        bottom: 72px;
+        transform: initial;
+    }
+}
+
+@media (max-width: 699px) {
+    .promo__slider {
+        display: none;
+    }
+
+    .promo__slider-pagination {
+        display: none;
+    }
+
+    .promo__decor {
+        display: none;
+    }
+
+    .promo__content {
+        max-width: none;
+    }
+
+    .promo__container {
+        padding: 40px 30px;
+    }
+
+    .promo__descr {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .promo__btn-group {
+        display: block;
+    }
+
+    .promo__btn {
+        margin-right: 0;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    .promo__btn:last-child {
+        margin-bottom: 0;
+    }
 }

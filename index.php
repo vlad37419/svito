@@ -581,545 +581,557 @@
     </div>
 </header>
 <main class="main">
-    <!--    <section class="promo section-offset">-->
-    <!--        <div class="promo__container container">-->
-    <!--            <div class="promo__slider swiper">-->
-    <!--                <div class="swiper-wrapper">-->
-    <!--                    <div class="promo__slide swiper-slide"-->
-    <!--                         style="background-image: url('/assets/img/sections/promo/slide-1.png')"></div>-->
-    <!--                    <div class="promo__slide swiper-slide"-->
-    <!--                         style="background-image: url('/assets/img/sections/promo/slide-2.png')"></div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="promo__slider-pagination slider-pagination"></div>-->
-    <!--            <div class="promo__decor"></div>-->
-    <!--            <div class="promo__decor promo-decor_big"></div>-->
-    <!--            <div class="promo__content">-->
-    <!--                <h1 class="promo__title section-title">-->
-    <!--                    Наркологическая клиника-->
-    <!--                    «Свято» в Санкт-Петербурге-->
-    <!--                </h1>-->
-    <!--                <p class="promo__descr">-->
-    <!--                    Мы поможем вам и вашим близким победить зависимость раз-->
-    <!--                    и навсегда. Мы подберем лечение, основанное на новейших методиках и подходящее именно вам.-->
-    <!--                </p>-->
-    <!--                <ul class="promo__list list-decor">-->
-    <!--                    <li class="promo__list-item">-->
-    <!--                        Гарантируем терапию европейского качества-->
-    <!--                    </li>-->
-    <!--                    <li class="promo__list-item">-->
-    <!--                        Обращение к нам анонимно, без постановки на учет-->
-    <!--                    </li>-->
-    <!--                    <li class="promo__list-item">-->
-    <!--                        Приезд бригады через 30 минут после обращения-->
-    <!--                    </li>-->
-    <!--                    <li class="promo__list-item">-->
-    <!--                        Если вы остались недовольны лечением, то вернем вам деньги-->
-    <!--                    </li>-->
-    <!--                </ul>-->
-    <!--                <div class="promo__btn-group">-->
-    <!--                    <button class="promo__btn btn">-->
-    <!--                        <span class="btn__text">Записаться на прием</span>-->
-    <!--                    </button>-->
-    <!--                    <button class="promo__btn btn btn_bg-transparent">-->
-    <!--                        <span class="btn__text">Узнать подробнее</span>-->
-    <!--                    </button>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </section>-->
-    <!--    <section class="services section-offset">-->
-    <!--        <div class="services__container container">-->
-    <!--            <h2 class="services__title section-title">-->
-    <!--                Предоставляемые услуги и направления-->
-    <!--            </h2>-->
-    <!--            <div class="services__row row">-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#EB5553"/>-->
-    <!--                        <path d="M41.7863 33.0629C42.2367 33.0629 42.848 32.695 43.2749 32.0639M43.2749 32.0639C43.6438 31.5186 43.8749 30.7767 43.7452 29.9061M43.2749 32.0639C43.8899 32.0639 45.1711 32.0473 46.3836 31.602M46.3836 31.602C47.8279 31.0714 49.1747 29.9325 49.182 27.4885M46.3836 31.602V33.0629C46.3836 34.1726 45.6906 36.2763 43.0634 36.7027C42.5182 36.7912 42.022 37.2428 41.7162 37.7027C41.2973 38.3327 40.5042 38.977 39.3475 38.977C37.5485 38.977 36.629 37.4985 36.629 37.0989L36.669 17.8781C36.669 17.4785 35.7495 16 33.9505 16C32.7938 16 32.0007 16.6443 31.5818 17.2743C31.2761 17.7342 30.7798 18.1858 30.2346 18.2743C27.6074 18.7007 26.9145 20.8044 26.9145 21.9141V23.3751M49.182 27.4885C49.182 27.4819 49.182 27.4752 49.182 27.4685M49.182 27.4885C49.1747 25.0445 47.8279 23.9056 46.3836 23.3751M49.182 27.4885C49.182 27.4952 49.182 27.5018 49.182 27.5085M41.7863 21.9141C42.2367 21.9141 42.848 22.282 43.2749 22.9131M43.2749 22.9131C43.6438 23.4584 43.8749 24.2003 43.7452 25.0709M43.2749 22.9131C43.8899 22.9131 45.1711 22.9297 46.3836 23.3751M46.3836 23.3751V21.9141C46.3836 20.8044 45.6906 18.7007 43.0634 18.2743C42.5182 18.1858 42.022 17.7342 41.7162 17.2743C41.2973 16.6443 40.5042 16 39.3475 16C37.5485 16 36.629 17.4785 36.629 17.8781M31.5117 33.0629C31.0614 33.0629 30.45 32.695 30.0232 32.0639M30.0232 32.0639C29.6543 31.5186 29.4231 30.7767 29.5528 29.9061M30.0232 32.0639C29.4081 32.0639 28.1269 32.0473 26.9145 31.602M26.9145 31.602C25.4702 31.0714 24.1233 29.9325 24.116 27.4885M26.9145 31.602V33.0629C26.9145 34.1726 27.6074 36.2763 30.2346 36.7027C30.7798 36.7912 31.2761 37.2428 31.5818 37.7027C32.0007 38.3327 32.7938 38.977 33.9505 38.977C35.7495 38.977 36.669 37.4985 36.669 37.0989M24.116 27.4885C24.116 27.4819 24.116 27.4752 24.116 27.4685M24.116 27.4885C24.1233 25.0445 25.4702 23.9056 26.9145 23.3751M24.116 27.4885C24.116 27.4952 24.116 27.5018 24.116 27.5085M31.5117 21.9141C31.0614 21.9141 30.45 22.282 30.0232 22.9131M30.0232 22.9131C29.6543 23.4584 29.4231 24.2003 29.5528 25.0709M30.0232 22.9131C29.4081 22.9131 28.1269 22.9297 26.9145 23.3751M20.7979 46.5694C22.0772 44.9044 25.8351 41.5744 30.6324 41.5744C33.2709 41.5744 33.6307 41.6543 34.2304 41.8541C34.7101 42.014 37.6018 43.1995 38.9877 43.7722C39.4808 44.0386 40.3629 44.8432 39.9472 45.9301M20.7979 46.5694L26.9544 51.6044M20.7979 46.5694L20.5131 46.3691C20.0706 46.0578 19.4607 46.1549 19.1368 46.5883L17.5698 48.6844C17.2506 49.1113 17.3224 49.7135 17.733 50.0534L24.1529 55.3686C24.5753 55.7183 25.2006 55.6626 25.5545 55.2437L27.2909 53.1884C27.6541 52.7584 27.5911 52.1135 27.1515 51.762L26.9544 51.6044M39.9472 45.9301C39.4275 47.2887 38.508 47.1688 38.0282 47.0889C37.6445 47.025 34.6968 46.2098 33.2709 45.8102M39.9472 45.9301L48.7023 43.4525C49.262 43.346 50.4853 43.4446 50.901 44.6913C51.4207 46.2498 49.7417 47.1688 49.3819 47.3287C49.094 47.4565 42.5724 50.4189 39.3475 51.8841C38.6546 52.1638 36.8289 52.5554 35.0699 51.8841C33.3109 51.2128 31.6984 50.5654 31.1121 50.3257C30.5924 50.1792 29.3851 49.974 28.7134 50.3257C28.0418 50.6773 27.2609 51.3247 26.9544 51.6044"-->
-    <!--                              stroke="#EB5553" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Психиатрия-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Медицинский специалист в области психиатрии называется психиатром.-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#F0D116"/>-->
-    <!--                        <path d="M27.5755 28.273C31.4422 24.5026 35.0519 20.9982 36.4356 19.6977C39.7631 16.5701 43.6119 15.9055 47.3403 19.0722C52.055 23.8573 49.3048 28.4418 47.3403 30.1359L38.4401 38.7962M27.5755 28.273C24.003 31.7566 20.2111 35.4673 17.7532 37.8766C16.4302 39.4404 14.578 43.5297 17.7532 47.3766C21.7222 52.1852 27.1345 49.7971 28.698 48.2757L38.4401 38.7962M27.5755 28.273L38.4401 38.7962M47.0998 55C52.0152 55 56 51.1143 56 46.321C56 41.5278 52.0152 37.6421 47.0998 37.6421M47.0998 55C42.1844 55 38.1996 51.1143 38.1996 46.321C38.1996 41.5278 42.1844 37.6421 47.0998 37.6421M47.0998 55V37.6421"-->
-    <!--                              stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Наркология-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Наркология как область медицины сформировалась относительно-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <path d="M25.3526 20.1046V20.1046C25.0272 20.1046 24.7635 19.8409 24.7635 19.5155V17C24.7635 16.4477 25.2112 16 25.7635 16H29.5701C30.1224 16 30.5701 16.4477 30.5701 17V19.5997C30.5701 19.8786 30.3441 20.1046 30.0652 20.1046V20.1046M25.3526 20.1046V20.668C25.4199 22.2532 24.713 25.9113 21.4331 28.3086C21.1775 28.4955 21.0136 28.7808 21.0112 29.0974C21.0042 30.0191 21.001 32.1055 21.0002 34.7928M25.3526 20.1046H30.0652M30.0652 20.1046V20.668C30.0047 24.5705 32.3372 27.1859 33.87 28.2813C34.1623 28.4901 34.3571 28.8173 34.3571 29.1765V40.7887M21.0002 34.7928L34.3571 40.7887M21.0002 34.7928C20.9998 36.1865 21 37.742 21.0008 39.3803M34.3571 40.7887V45.2958M21.0008 39.3803C21.0032 44.5935 21.0105 50.6463 21.017 55.0029C21.0179 55.5545 21.4653 56 22.017 56H33.3571C33.9094 56 34.3571 55.5523 34.3571 55V45.2958M21.0008 39.3803L34.3571 45.2958M23.8378 52.8209H31.4538M40.2211 47.7103L40.0044 45.5928C39.944 45.0033 40.4066 44.4909 40.9992 44.4909H49.8964C50.4875 44.4909 50.9497 45.0009 50.8916 45.5892L50.6822 47.7103M40.2211 47.7103L40.9778 55.1018C41.03 55.612 41.4598 56 41.9726 56H48.9578C49.472 56 49.9024 55.61 49.9529 55.0982L50.6822 47.7103M40.2211 47.7103H50.6822"-->
-    <!--                              stroke="#EB5553" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#EB5553"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Алкоголизм-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Алкоголизм - это психическое и физическое заболевание.-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#F0D116"/>-->
-    <!--                        <path d="M22.0241 50.3064C25.6295 53.8291 30.5612 56 36 56C47.0457 56 56 47.0457 56 36C56 30.6015 53.8611 25.7026 50.3845 22.1044M22.0241 50.3064C18.3072 46.6749 16 41.6069 16 36C16 24.9543 24.9543 16 36 16C41.6472 16 46.7477 18.3405 50.3845 22.1044M22.0241 50.3064L30.8193 41.5604M50.3845 22.1044L30.8193 41.5604M30.8193 41.5604V36C30.6452 34.8755 31.0763 32.2329 34.1928 30.6586C34.1928 28.249 34.1928 25.0495 34.1928 23.751H37.9277V30.6586C39.0522 31.0067 41.3012 32.5622 41.3012 36C41.3012 39.4378 41.3012 45.6519 41.3012 48.3293H30.8193V41.5604Z"-->
-    <!--                              stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Кодирование-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Медицинский специалист в области психиатрии называется психиатром.-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#EB5553"/>-->
-    <!--                        <path d="M46.1647 40.745C48.6036 38.2243 50.1036 34.7951 50.1036 31.0167C50.1036 23.2755 43.807 17 36.0398 17C28.2726 17 21.9761 23.2755 21.9761 31.0167C21.9761 34.7951 23.4761 38.2243 25.915 40.745M46.1647 40.745C44.1579 42.8192 41.5154 44.2784 38.5498 44.8109L36.0398 49.2968L33.5299 44.8109C30.5643 44.2784 27.9218 42.8192 25.915 40.745M46.1647 40.745H51.9761L56 55H16L20.1434 40.745H25.915M41.8964 28.8328V33.3595H38.3108V36.9331H33.7689V33.3595H30.1833V28.8328H33.7689V25.2591H38.3108V28.8328H41.8964Z"-->
-    <!--                              stroke="#EB5553" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Реабилитация-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Наркология как область медицины сформировалась относительно-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--                <div class="services__card col-33">-->
-    <!--                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-    <!--                        <rect opacity="0.15" width="72" height="72" rx="24" fill="#F0D116"/>-->
-    <!--                        <path d="M47.1111 43.2121L56.0311 34.1047C56.4162 33.7116 56.4112 33.0812 56.0201 32.6942L45.9192 22.6996C45.5281 22.3126 44.8978 22.3143 44.5087 22.7034L40.9697 26.2424M47.1111 43.2121C47.2169 42.0333 46.9038 40.1169 45.5354 38.4903M47.1111 43.2121C47.1111 46.3232 44.3636 50 40.1616 50C37.1843 50 35.0014 48.2251 34.0172 47.0333C33.8043 46.7755 33.4961 46.6061 33.1618 46.6061H29.7701C29.4233 46.6061 29.1056 46.789 28.9001 47.0684C27.6689 48.7421 25.5876 50 23.0303 50C17.3737 50 16 44.4242 16 43.0505C16 37.7818 20.2559 35.9529 22.3838 35.697H24.4848M31.5152 35.697H40.0015C40.0543 35.697 40.107 35.7011 40.1591 35.7097C40.4398 35.7562 40.7099 35.8102 40.9697 35.871M31.5152 35.697L31.8788 35.3333M31.5152 35.697H24.4848M40.9697 35.871L40.5108 32.9527C40.4936 32.8436 40.4928 32.7323 40.5202 32.6253C40.7042 31.9056 41.3509 30.7273 42.7879 30.7273C44.2351 30.7273 44.8498 31.5372 45.0183 32.5527C45.114 33.1298 45.558 33.6239 46.1288 33.7522C47.0471 33.9587 48.0404 34.5051 48.0404 35.871C48.0404 37.4449 46.3704 38.273 45.5354 38.4903M40.9697 35.871C43.1371 36.3786 44.5887 37.3651 45.5354 38.4903M34.9495 32.2626C34.2492 31.5892 32.8485 29.9111 32.8485 28.5859C32.8485 29.596 30.7879 33.0707 29.0505 33.0707C29.697 33.0707 31.6364 34.9697 31.8788 35.3333M34.9495 32.2626L31.8788 35.3333M34.9495 32.2626L40.9697 26.2424M24.4848 35.697V23.2828C24.4848 22.7305 24.9326 22.2828 25.4848 22.2828H39.9697C40.522 22.2828 40.9697 22.7305 40.9697 23.2828V26.2424M40.7273 39.8586C40.7273 40.2602 40.4017 40.5859 40 40.5859C39.5983 40.5859 39.2727 40.2602 39.2727 39.8586C39.2727 39.4569 39.5983 39.1313 40 39.1313C40.4017 39.1313 40.7273 39.4569 40.7273 39.8586ZM40.7273 45.7576C40.7273 46.1592 40.4017 46.4848 40 46.4848C39.5983 46.4848 39.2727 46.1592 39.2727 45.7576C39.2727 45.3559 39.5983 45.0303 40 45.0303C40.4017 45.0303 40.7273 45.3559 40.7273 45.7576ZM43.6364 42.8485C43.6364 43.2501 43.3108 43.5758 42.9091 43.5758C42.5074 43.5758 42.1818 43.2501 42.1818 42.8485C42.1818 42.4468 42.5074 42.1212 42.9091 42.1212C43.3108 42.1212 43.6364 42.4468 43.6364 42.8485ZM37.8182 42.8485C37.8182 43.2501 37.4926 43.5758 37.0909 43.5758C36.6892 43.5758 36.3636 43.2501 36.3636 42.8485C36.3636 42.4468 36.6892 42.1212 37.0909 42.1212C37.4926 42.1212 37.8182 42.4468 37.8182 42.8485ZM21.899 40.5152V39.8889C21.899 39.3366 22.3467 38.8889 22.899 38.8889H23.2424C23.7947 38.8889 24.2424 39.3366 24.2424 39.8889V40.5152C24.2424 41.0674 24.6901 41.5152 25.2424 41.5152H25.8687C26.421 41.5152 26.8687 41.9629 26.8687 42.5152V42.8586C26.8687 43.4109 26.421 43.8586 25.8687 43.8586H25.2424C24.6901 43.8586 24.2424 44.3063 24.2424 44.8586V45.4848C24.2424 46.0371 23.7947 46.4848 23.2424 46.4848H22.899C22.3467 46.4848 21.899 46.0371 21.899 45.4848V44.8586C21.899 44.3063 21.4513 43.8586 20.899 43.8586H20.2727C19.7204 43.8586 19.2727 43.4109 19.2727 42.8586V42.5152C19.2727 41.9629 19.7204 41.5152 20.2727 41.5152H20.899C21.4513 41.5152 21.899 41.0674 21.899 40.5152Z"-->
-    <!--                              stroke="#FFC531" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>-->
-    <!--                    </svg>-->
-    <!--                    <p class="services__card-title">-->
-    <!--                        Игромания-->
-    <!--                    </p>-->
-    <!--                    <p class="services__card-descr">-->
-    <!--                        Алкоголизм - это психическое и физическое заболевание.-->
-    <!--                    </p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </section>-->
-    <!--    <section class="prices section-offset">-->
-    <!--        <div class="prices__container container">-->
-    <!--            <h2 class="prices__title section-title">-->
-    <!--                Прайс-лист с ценами на наши услуги-->
-    <!--            </h2>-->
-    <!--            <ul class="prices__wrapper accor-wrapper" data-accordion-list>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--                <li class="faq__accor question accor">-->
-    <!--                    <button class="question__title accor-open" data-accordion-button>-->
-    <!--                        <span class="question__title-text">-->
-    <!--                          Вывод из запоя-->
-    <!--                        </span>-->
-    <!--                        <span class="question__title-decor accor-open-decor"></span>-->
-    <!--                    </button>-->
-    <!--                    <div class="question__info accor-full">-->
-    <!--                        <div class="question__info-wrapper accor-full-content" data-accordion-content>-->
-    <!--                            <ul class="question__info-services">-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от запоя-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Капельница от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 3000 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Лечение от похмелья-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2700 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                                <li class="question__info-service">-->
-    <!--                                    <p class="question__info-service-title">-->
-    <!--                                        Помощь при отравление алкоголем-->
-    <!--                                    </p>-->
-    <!--                                    <p class="question__info-service-price">-->
-    <!--                                        от 2400 ₽-->
-    <!--                                    </p>-->
-    <!--                                    <button class="question__info-service-btn btn btn_bg-transparent">-->
-    <!--                                        <span class="btn__text">-->
-    <!--                                            Заказать-->
-    <!--                                        </span>-->
-    <!--                                    </button>-->
-    <!--                                </li>-->
-    <!--                            </ul>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </li>-->
-    <!--            </ul>-->
-    <!--        </div>-->
-    <!--    </section>-->
+        <section class="promo section-offset">
+            <div class="promo__container container">
+                <div class="promo__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="promo__slide swiper-slide"
+                             style="background-image: url('/assets/img/sections/promo/slide-1.png')"></div>
+                        <div class="promo__slide swiper-slide"
+                             style="background-image: url('/assets/img/sections/promo/slide-2.png')"></div>
+                    </div>
+                </div>
+                <div class="promo__slider-pagination slider-pagination"></div>
+                <div class="promo__decor"></div>
+                <div class="promo__decor promo-decor_big"></div>
+                <div class="promo__content">
+                    <h1 class="promo__title section-title">
+                        Наркологическая клиника
+                        «Свято» в Санкт-Петербурге
+                    </h1>
+                    <p class="promo__descr">
+                        Мы поможем вам и вашим близким победить зависимость раз
+                        и навсегда. Мы подберем лечение, основанное на новейших методиках и подходящее именно вам.
+                    </p>
+                    <ul class="promo__list list-decor">
+                        <li class="promo__list-item">
+                            Гарантируем терапию европейского качества
+                        </li>
+                        <li class="promo__list-item">
+                            Обращение к нам анонимно, без постановки на учет
+                        </li>
+                        <li class="promo__list-item">
+                            Приезд бригады через 30 минут после обращения
+                        </li>
+                        <li class="promo__list-item">
+                            Если вы остались недовольны лечением, то вернем вам деньги
+                        </li>
+                    </ul>
+                    <div class="promo__btn-group">
+                        <button class="promo__btn btn">
+                            <span class="btn__text">Записаться на прием</span>
+                        </button>
+                        <button class="promo__btn btn btn_bg-transparent">
+                            <span class="btn__text">Узнать подробнее</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section-offset">
+            <div class="services__container container">
+                <h2 class="services__title section-title">
+                    Предоставляемые услуги и направления
+                </h2>
+                <div class="services__row row">
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.4123 14.6503C21.7831 14.6503 22.2866 14.356 22.6381 13.8511M22.6381 13.8511C22.9419 13.4149 23.1322 12.8214 23.0255 12.1249M22.6381 13.8511C23.1446 13.8511 24.1997 13.8379 25.1982 13.4816M25.1982 13.4816C26.3876 13.0572 27.4968 12.146 27.5028 10.1908M25.1982 13.4816V14.6503C25.1982 15.5367 24.6293 17.2159 22.4739 17.5606C22.0194 17.6333 21.6023 18.0105 21.3374 18.3868C20.9882 18.8828 20.3409 19.3816 19.4038 19.3816C17.9223 19.3816 17.1651 18.1988 17.1651 17.8791L17.198 2.5025C17.198 2.18282 16.4408 1 14.9593 1C14.0222 1 13.3749 1.49877 13.0257 1.99479C12.7607 2.37112 12.3436 2.74835 11.8892 2.82103C9.73374 3.16573 9.16484 4.84489 9.16484 5.73127V6.90004M27.5028 10.1908C27.5028 10.1855 27.5028 10.1802 27.5028 10.1748M27.5028 10.1908C27.4968 8.23561 26.3876 7.32446 25.1982 6.90004M27.5028 10.1908C27.5028 10.1961 27.5028 10.2015 27.5028 10.2068M21.4123 5.73127C21.7831 5.73127 22.2866 6.02563 22.6381 6.53047M22.6381 6.53047C22.9419 6.96675 23.1322 7.56022 23.0255 8.25674M22.6381 6.53047C23.1446 6.53047 24.1997 6.54375 25.1982 6.90004M25.1982 6.90004V5.73127C25.1982 4.84489 24.6293 3.16573 22.4739 2.82103C22.0194 2.74835 21.6023 2.37112 21.3374 1.99479C20.9882 1.49877 20.3409 1 19.4038 1C17.9223 1 17.1651 2.18282 17.1651 2.5025M12.9508 14.6503C12.5799 14.6503 12.0765 14.356 11.7249 13.8511M11.7249 13.8511C11.4212 13.4149 11.2308 12.8214 11.3376 12.1249M11.7249 13.8511C11.2184 13.8511 10.1634 13.8379 9.16484 13.4816M9.16484 13.4816C7.97543 13.0572 6.86629 12.146 6.86028 10.1908M9.16484 13.4816V14.6503C9.16484 15.5367 9.73374 17.2159 11.8892 17.5606C12.3436 17.6333 12.7607 18.0105 13.0257 18.3868C13.3749 18.8828 14.0222 19.3816 14.9593 19.3816C16.4408 19.3816 17.198 18.1988 17.198 17.8791M6.86028 10.1908C6.86026 10.1855 6.86025 10.1802 6.86025 10.1748M6.86028 10.1908C6.86629 8.23561 7.97543 7.32446 9.16484 6.90004M6.86028 10.1908C6.86026 10.1961 6.86025 10.2015 6.86025 10.2068M12.9508 5.73127C12.5799 5.73127 12.0765 6.02563 11.7249 6.53047M11.7249 6.53047C11.4212 6.96675 11.2308 7.56022 11.3376 8.25674M11.7249 6.53047C11.2184 6.53047 10.1634 6.54375 9.16484 6.90004M4.12766 25.4555C5.18119 24.1235 8.27593 21.4595 12.2267 21.4595C14.3996 21.4595 14.6959 21.5235 15.1897 21.6833C15.5848 21.8112 17.9662 22.7596 19.1075 23.2178C19.5136 23.4309 20.2401 24.0745 19.8977 24.9441M4.12766 25.4555L9.19777 29.4835M4.12766 25.4555L3.88899 25.2925C3.52408 25.0431 3.02798 25.122 2.75844 25.4723L1.49746 27.1108C1.22101 27.4701 1.28239 27.9844 1.6356 28.2684L6.89384 32.4974C7.24277 32.7781 7.75108 32.7328 8.04492 32.3949L9.44284 30.7875C9.75675 30.4265 9.70302 29.876 9.32525 29.5825L9.19777 29.4835M19.8977 24.9441C19.4697 26.031 18.7124 25.9351 18.3174 25.8711C18.0013 25.82 15.5738 25.1678 14.3996 24.8482M19.8977 24.9441L27.1077 22.962C27.5687 22.8768 28.5761 22.9556 28.9185 23.953C29.3465 25.1998 27.9637 25.9351 27.6674 26.0629C27.4304 26.1652 22.0596 28.5351 19.4038 29.7073C18.8332 29.9311 17.3297 30.2444 15.8811 29.7073C14.4325 29.1702 13.1046 28.6523 12.6217 28.4605C12.1937 28.3433 11.1995 28.1792 10.6464 28.4605C10.0933 28.7419 9.45017 29.2597 9.19777 29.4835" stroke="#EB5553" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Психиатрия
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Медицинский специалист в области психиатрии называется психиатром.
+                        </p>
+                    </div>
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2604 10.493C13.3537 7.31795 16.2416 4.36689 17.3485 3.27174C20.0105 0.63801 23.0895 0.0783417 26.0723 2.745C29.844 6.7746 27.6438 10.6352 26.0723 12.0618L18.9521 19.3547M10.2604 10.493C7.40237 13.4266 4.36892 16.5514 2.40256 18.5803C1.34415 19.8972 -0.137608 23.3408 2.40256 26.5803C5.57776 30.6296 9.90759 28.6187 11.1584 27.3375L18.9521 19.3547M10.2604 10.493L18.9521 19.3547M25.8798 33C29.8122 33 33 29.7278 33 25.6914C33 21.655 29.8122 18.3828 25.8798 18.3828M25.8798 33C21.9475 33 18.7597 29.7278 18.7597 25.6914C18.7597 21.655 21.9475 18.3828 25.8798 18.3828M25.8798 33V18.3828" stroke="#FFC531" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Наркология
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Наркология как область медицины сформировалась относительно
+                        </p>
+                    </div>
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.48204 4.2837V4.2837C4.22176 4.2837 4.01076 4.0727 4.01076 3.81243V1.83333C4.01076 1.3731 4.38386 1 4.8441 1H7.82277C8.28301 1 8.6561 1.3731 8.6561 1.83333V3.87976C8.6561 4.10285 8.47525 4.2837 8.25216 4.2837V4.2837M4.48204 4.2837V4.73441C4.53585 6.00038 3.97239 8.9189 1.36008 10.8369C1.14737 10.9931 1.01075 11.231 1.00881 11.4948C1.00332 12.2405 1.00077 13.9007 1.00015 16.0342M4.48204 4.2837H8.25216M8.25216 4.2837V4.73441C8.204 7.84317 10.054 9.93101 11.2804 10.8138C11.5234 10.9887 11.6857 11.2613 11.6857 11.5606V20.831M1.00015 16.0342L11.6857 20.831M1.00015 16.0342C0.999829 17.1492 1.00004 18.3936 1.00063 19.7042M11.6857 20.831V24.4366M1.00063 19.7042C1.00253 23.8616 1.00834 28.6864 1.01359 32.1691C1.01428 32.6288 1.38717 33 1.84689 33H10.8523C11.3126 33 11.6857 32.6269 11.6857 32.1667V24.4366M1.00063 19.7042L11.6857 24.4366M3.2702 30.4567H9.363M16.3769 26.3682L16.2073 24.711C16.157 24.2197 16.5425 23.7928 17.0363 23.7928H24.0804C24.573 23.7928 24.958 24.2177 24.9097 24.708L24.7458 26.3682M16.3769 26.3682L16.9792 32.2515C17.0227 32.6767 17.3808 33 17.8082 33H23.336C23.7645 33 24.1232 32.675 24.1653 32.2485L24.7458 26.3682M16.3769 26.3682H24.7458" stroke="#EB5553" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Алкоголизм
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Алкоголизм - это психическое и физическое заболевание.
+                        </p>
+                    </div>
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.81928 28.4452C8.70359 31.2632 12.649 33 17 33C25.8366 33 33 25.8366 33 17C33 12.6812 31.2889 8.76205 28.5076 5.88353M5.81928 28.4452C2.8458 25.54 1 21.4855 1 17C1 8.16344 8.16344 1 17 1C21.5178 1 25.5982 2.87241 28.5076 5.88353M5.81928 28.4452L12.8554 21.4483M28.5076 5.88353L12.8554 21.4483M12.8554 21.4483V17C12.7162 16.1004 13.061 13.9863 15.5542 12.7269C15.5542 10.7992 15.5542 8.23962 15.5542 7.2008H18.5422V12.7269C19.4418 13.0054 21.241 14.2498 21.241 17C21.241 19.7502 21.241 24.7216 21.241 26.8635H12.8554V21.4483Z" stroke="#FFC531" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Кодирование
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Медицинский специалист в области психиатрии называется психиатром.
+                        </p>
+                    </div>
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.1318 19.7461C27.0829 17.756 28.2829 15.0487 28.2829 12.0658C28.2829 5.95434 23.2456 1 17.0319 1C10.8181 1 5.78088 5.95434 5.78088 12.0658C5.78088 15.0487 6.98088 17.756 8.93197 19.7461M25.1318 19.7461C23.5263 21.3836 21.4123 22.5356 19.0398 22.9559L17.0319 26.4974L15.0239 22.9559C12.6514 22.5356 10.5374 21.3836 8.93197 19.7461M25.1318 19.7461H29.7809L33 31H1L4.31474 19.7461H8.93197M21.7171 10.3417V13.9154H18.8486V16.7367H15.2151V13.9154H12.3466V10.3417H15.2151V7.52038H18.8486V10.3417H21.7171Z" stroke="#EB5553" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Реабилитация
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Наркология как область медицины сформировалась относительно
+                        </p>
+                    </div>
+                    <div class="services__card col-33">
+                        <div class="services__card-top">
+                            <div class="services__card-decor">
+                                <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.4444 17.6667L32.4199 10.5447C32.7407 10.2171 32.7366 9.69178 32.4107 9.36923L24.5416 1.58304C24.2157 1.26054 23.6905 1.26193 23.3662 1.58615L20.619 4.33333M25.4444 17.6667C25.5276 16.7405 25.2816 15.2347 24.2064 13.9566M25.4444 17.6667C25.4444 20.1111 23.2857 23 19.9841 23C17.6613 23 15.9539 21.625 15.1729 20.6889C14.9944 20.475 14.7374 20.3333 14.4588 20.3333H11.846C11.5569 20.3333 11.2924 20.486 11.12 20.718C10.1507 22.0224 8.5222 23 6.52381 23C2.07937 23 1 18.619 1 17.5397C1 13.4 4.34392 11.963 6.01587 11.7619H7.66667M13.1905 11.7619H19.8546C19.8985 11.7619 19.9425 11.7653 19.9859 11.7725C20.2051 11.8089 20.4161 11.8511 20.619 11.8987M13.1905 11.7619L13.4762 11.4762M13.1905 11.7619H7.66667M20.619 11.8987L20.2597 9.61354C20.2454 9.5226 20.2447 9.42988 20.2678 9.34078C20.415 8.77465 20.9237 7.85714 22.0476 7.85714C23.1603 7.85714 23.6467 8.46654 23.7911 9.24034C23.8805 9.71961 24.2491 10.1312 24.723 10.2457C25.43 10.4164 26.1746 10.8504 26.1746 11.8987C26.1746 13.1353 24.8624 13.7859 24.2064 13.9566M20.619 11.8987C22.322 12.2975 23.4626 13.0726 24.2064 13.9566M15.8889 9.06349C15.3386 8.53439 14.2381 7.21587 14.2381 6.1746C14.2381 6.96825 12.619 9.69841 11.254 9.69841C11.7619 9.69841 13.2857 11.1905 13.4762 11.4762M15.8889 9.06349L13.4762 11.4762M15.8889 9.06349L20.619 4.33333M7.66667 11.7619V2.05556C7.66667 1.59532 8.03976 1.22222 8.5 1.22222H19.7857C20.246 1.22222 20.619 1.59532 20.619 2.05556V4.33333M20.4286 15.0317C20.4286 15.3473 20.1727 15.6032 19.8571 15.6032C19.5416 15.6032 19.2857 15.3473 19.2857 15.0317C19.2857 14.7162 19.5416 14.4603 19.8571 14.4603C20.1727 14.4603 20.4286 14.7162 20.4286 15.0317ZM20.4286 19.6667C20.4286 19.9823 20.1727 20.2381 19.8571 20.2381C19.5416 20.2381 19.2857 19.9823 19.2857 19.6667C19.2857 19.3511 19.5416 19.0952 19.8571 19.0952C20.1727 19.0952 20.4286 19.3511 20.4286 19.6667ZM22.7143 17.381C22.7143 17.6965 22.4584 17.9524 22.1429 17.9524C21.8273 17.9524 21.5714 17.6965 21.5714 17.381C21.5714 17.0654 21.8273 16.8095 22.1429 16.8095C22.4584 16.8095 22.7143 17.0654 22.7143 17.381ZM18.1429 17.381C18.1429 17.6965 17.887 17.9524 17.5714 17.9524C17.2558 17.9524 17 17.6965 17 17.381C17 17.0654 17.2558 16.8095 17.5714 16.8095C17.887 16.8095 18.1429 17.0654 18.1429 17.381ZM5.63492 15.5V15.1032C5.63492 14.6429 6.00802 14.2698 6.46825 14.2698H6.64286C7.1031 14.2698 7.47619 14.6429 7.47619 15.1032V15.5C7.47619 15.9602 7.84929 16.3333 8.30952 16.3333H8.70635C9.16659 16.3333 9.53968 16.7064 9.53968 17.1667V17.3413C9.53968 17.8015 9.16659 18.1746 8.70635 18.1746H8.30952C7.84929 18.1746 7.47619 18.5477 7.47619 19.0079V19.4048C7.47619 19.865 7.10309 20.2381 6.64286 20.2381H6.46825C6.00802 20.2381 5.63492 19.865 5.63492 19.4048V19.0079C5.63492 18.5477 5.26182 18.1746 4.80159 18.1746H4.40476C3.94452 18.1746 3.57143 17.8015 3.57143 17.3413V17.1667C3.57143 16.7064 3.94452 16.3333 4.40476 16.3333H4.80159C5.26182 16.3333 5.63492 15.9602 5.63492 15.5Z" stroke="#FFC531" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <p class="services__card-title">
+                                Игромания
+                            </p>
+                        </div>
+                        <p class="services__card-descr">
+                            Алкоголизм - это психическое и физическое заболевание.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prices section-offset">
+            <div class="prices__container container">
+                <h2 class="prices__title section-title">
+                    Прайс-лист с ценами на наши услуги
+                </h2>
+                <ul class="prices__wrapper accor-wrapper" data-accordion-list>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="faq__accor question accor">
+                        <button class="question__title accor-open" data-accordion-button>
+                            <span class="question__title-text">
+                              Вывод из запоя
+                            </span>
+                            <span class="question__title-decor accor-open-decor"></span>
+                        </button>
+                        <div class="question__info accor-full">
+                            <div class="question__info-wrapper accor-full-content" data-accordion-content>
+                                <ul class="question__info-services">
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от запоя
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Капельница от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 3000 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Лечение от похмелья
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2700 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="question__info-service">
+                                        <p class="question__info-service-title">
+                                            Помощь при отравление алкоголем
+                                        </p>
+                                        <p class="question__info-service-price">
+                                            от 2400 ₽
+                                        </p>
+                                        <button class="question__info-service-btn btn btn_bg-transparent">
+                                            <span class="btn__text">
+                                                Заказать
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     <!--    <section class="consultation section-offset">-->
     <!--        <div class="consultation__container container">-->
     <!--            <div class="consultation__decor"></div>-->

@@ -457,10 +457,12 @@ body.lock {
 
 .question__info-service-price {
     margin-right: 24px;
+    margin-left: 24px;
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
     color: #63728C;
+    white-space: nowrap;
 }
 
 .question__info-service-btn {
@@ -650,6 +652,15 @@ body.lock {
         max-width: 1020px;
     }
 
+    .section-offset {
+        margin-bottom: 92px;
+    }
+
+    .section-title {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
     .logo {
         flex-direction: column;
         align-items: center;
@@ -684,6 +695,12 @@ body.lock {
 }
 
 @media (max-width: 991px) {
+    .section-title {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 32px;
+    }
+
     .logo {
         flex-direction: initial;
     }
@@ -730,10 +747,150 @@ body.lock {
         font-size: 14px;
         line-height: 16px;
     }
+
+    .list-decor li {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 12px;
+        padding-left: 22px;
+        background-size: 12px 9px;
+    }
+
+    .col-33 {
+        flex: 0 1 calc(50% - 10px);
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .col-33:nth-child(3n) {
+        margin-right: 20px;
+    }
+
+    .col-33:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .col-33:last-child {
+        margin-right: 0;
+    }
+
+    .question__title {
+        padding: 20px;
+    }
+
+    .question__title-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .accor-open-decor {
+        width: 28px;
+        height: 28px;
+    }
+
+    .question__info-wrapper {
+        padding: 20px;
+    }
+
+    .question__info-service-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .question__info-service-price {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
 
 @media (max-width: 699px) {
     .container {
         padding: 0 30px;
+    }
+
+    .section-offset {
+        margin-bottom: 40px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .list-decor li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .col-33 {
+        flex: 0 1 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .col-33:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .col-33:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .col-33:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .question__info-service {
+        display: block;
+    }
+
+    .question__info-service-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .question__info-service-price {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .question__info-service-price {
+        margin: 0 0 6px 0;
+    }
+
+    .question__title {
+        padding: 16px;
+    }
+
+    .question__title-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .accor-open-decor {
+        width: 20px;
+        height: 20px;
+    }
+
+    .accor-open-decor::before {
+        width: 10px;
+    }
+
+    .accor-open-decor::after {
+        height: 10px;
+    }
+
+    .question__info-wrapper {
+        padding: 10px 20px;
+    }
+
+    .question__info-service {
+        margin-bottom: 20px;
+    }
+
+    .question__info-service-btn {
+        padding: 6px 14px;
     }
 }
