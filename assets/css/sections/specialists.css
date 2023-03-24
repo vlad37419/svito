@@ -32,7 +32,7 @@
 .specialist__img {
     object-fit: cover;
     object-position: top;
-    max-height: 224px;
+    height: 224px;
 }
 
 .specialist__name {
@@ -55,4 +55,36 @@
 
 .specialist__btn {
     margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+    .specialist__img {
+        height: 176px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .specialists__wrapper {
+        padding: 0 78px;
+    }
+}
+
+@media (max-width: 991px) {
+    .specialists__title {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 699px) {
+    .specialists__title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 8px;
+    }
+
+    .specialists__wrapper {
+        padding: 0 35px;
+    }
 }

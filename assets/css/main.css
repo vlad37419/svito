@@ -318,14 +318,14 @@ body.lock {
     width: 12px;
     height: 12px;
     padding: 0;
-    margin: 0 8px 0 0!important;
+    margin: 0 8px 0 0 !important;
     opacity: 0.5;
     border: 1px solid #EB5553;
     background-color: #fff;
 }
 
 .slider-pagination .swiper-pagination-bullet:last-child {
-    margin-right: 0!important;
+    margin-right: 0 !important;
 }
 
 .slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -373,11 +373,16 @@ body.lock {
 }
 
 .question {
+    overflow: hidden;
     border: 1px solid #F3F3F4;
-    box-shadow: 0px 0px 40px #E3E3E3;
     border-radius: 24px;
     background-color: #fff;
     margin-bottom: 20px;
+    transition: box-shadow .2s ease;
+}
+
+.question.active {
+    box-shadow: 0px 0px 40px #E3E3E3;
 }
 
 .question:last-child {
@@ -397,11 +402,12 @@ body.lock {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
+    text-align: left;
     margin-right: 24px;
 }
 
 .accor-open-decor {
-    width: 32px;
+    flex: 0 0 32px;
     height: 32px;
     border: 2px solid #333;
     border-radius: 50%;
@@ -480,6 +486,7 @@ body.lock {
     line-height: 24px;
     margin-bottom: 12px;
 }
+
 .question__info-wrapper > p:last-child {
     margin-bottom: 0;
 }
@@ -694,7 +701,37 @@ body.lock {
     }
 }
 
+@media (max-width: 1200px) {
+    .slider-container_for-btn {
+        padding: 0 78px;
+    }
+
+    .slider-button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .slider-button svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .slider-button_prev {
+        left: 0;
+        transform: translate(0);
+    }
+
+    .slider-button_next {
+        right: 0;
+        transform: translate(0);
+    }
+}
+
 @media (max-width: 991px) {
+    .section-offset {
+        margin-bottom: 72px;
+    }
+
     .section-title {
         font-size: 32px;
         line-height: 42px;
@@ -774,6 +811,14 @@ body.lock {
         margin-right: 0;
     }
 
+    .question {
+        margin-bottom: 16px;
+    }
+
+    .question.active {
+        box-shadow: 0px 0px 20px #E3E3E3;
+    }
+
     .question__title {
         padding: 20px;
     }
@@ -783,8 +828,13 @@ body.lock {
         line-height: 28px;
     }
 
+    .question__info-wrapper > p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
     .accor-open-decor {
-        width: 28px;
+        flex: 0 0 28px;
         height: 28px;
     }
 
@@ -800,6 +850,37 @@ body.lock {
     .question__info-service-price {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .form-consultation {
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+    }
+
+    .form-consultation__label {
+        flex: 0 1 calc(50% - 5px);
+        margin-right: 10px;
+        margin-bottom: 12px;
+    }
+
+    .form-consultation__label:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .form-consultation__input {
+        height: 40px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .form-consultation-btn {
+        flex: 1 1 100%;
+    }
+
+    .section-descr {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 32px;
     }
 }
 
@@ -842,6 +923,11 @@ body.lock {
         margin-bottom: 0;
     }
 
+    .question {
+        margin-bottom: 8px;
+        border-radius: 16px;
+    }
+
     .question__info-service {
         display: block;
     }
@@ -870,7 +956,7 @@ body.lock {
     }
 
     .accor-open-decor {
-        width: 20px;
+        flex: 0 0 20px;
         height: 20px;
     }
 
@@ -892,5 +978,41 @@ body.lock {
 
     .question__info-service-btn {
         padding: 6px 14px;
+    }
+
+    .question__info-wrapper > p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .form-consultation__label {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .form-consultation__input {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .slider-container_for-btn {
+        padding: 0 35px;
+    }
+
+    .slider-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider-button svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .section-descr {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 12px;
     }
 }

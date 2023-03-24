@@ -66,3 +66,125 @@
     left: initial;
     right: -151px;
 }
+
+@media (max-width: 1600px) {
+    .consultation__content {
+        padding-left: 310px;
+    }
+
+    .consultation_reverse .consultation__content {
+        padding-right: 310px;
+    }
+
+    .consultation__decor {
+        left: -111px;
+    }
+
+    .consultation_reverse .consultation__decor {
+        right: 26px;
+    }
+}
+
+@media (max-width: 991px) {
+    .consultation__container {
+        padding: 40px 50px;
+    }
+
+    .consultation__title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .consultation__img {
+        width: 197px;
+        height: 300px;
+    }
+
+    .consultation__content {
+        padding-left: 230px;
+    }
+
+    .consultation_reverse .consultation__content {
+        padding-right: 230px;
+    }
+
+    .consultation__link {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 auto;
+        display: block;
+        width: fit-content;
+    }
+
+    .consultation__decor {
+        width: 195px;
+        height: 195px;
+        top: 60px;
+        left: -60px;
+        border: 40px solid #fff;
+    }
+
+    .consultation_reverse .consultation__decor {
+        top: 60px;
+        right: 26px;
+    }
+}
+
+@media (max-width: 699px) {
+    .consultation__container {
+        padding: 40px 30px;
+    }
+
+    .consultation__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .consultation__content {
+        padding-left: 0;
+        padding-bottom: 176px;
+    }
+
+    .consultation_reverse .consultation__content {
+        padding-right: 0;
+    }
+
+    .consultation__img {
+        width: 131px;
+        height: 200px;
+    }
+
+    .consultation__picture {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .consultation_reverse .consultation__picture {
+        left: 50%;
+        right: initial;
+        transform: translateX(-50%);
+    }
+
+    .consultation__decor {
+        top: initial;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .consultation_reverse .consultation__decor {
+        top: initial;
+        right: initial;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .consultation__link {
+        font-size: 18px;
+        line-height: 28px;
+        white-space: nowrap;
+    }
+}

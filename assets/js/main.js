@@ -125,12 +125,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // specialists slider
     const specialistsSlider = new Swiper('.specialists__slider', {
-        slidesPerView: 4,
-        spaceBetween: 28,
         navigation: {
             nextEl: '.specialists__slider-button_next',
             prevEl: '.specialists__slider-button_prev',
         },
+        breakpoints: {
+            0: {
+                spaceBetween: 28,
+                slidesPerView: 1,
+            },
+            700: {
+                spaceBetween: 20,
+                slidesPerView: 2,
+            },
+            992: {
+                spaceBetween: 20,
+                slidesPerView: 3,
+            },
+            1200: {
+                spaceBetween: 28,
+                slidesPerView: 4,
+            }
+        }
     });
 
     // reviews slider
@@ -146,6 +162,16 @@ document.addEventListener("DOMContentLoaded", function () {
             nextEl: '.reviews__slider-button_next',
             prevEl: '.reviews__slider-button_prev',
         },
+        breakpoints: {
+            0: {
+                spaceBetween: 20,
+                slidesPerView: 1,
+            },
+            1201: {
+                spaceBetween: 28,
+                slidesPerView: 2,
+            }
+        }
     });
 
     // documents slider
@@ -157,8 +183,23 @@ document.addEventListener("DOMContentLoaded", function () {
             type: 'bullets',
             clickable: true,
         },
+        breakpoints: {
+            0: {
+                spaceBetween: 12,
+                slidesPerView: 2,
+            },
+            700: {
+                spaceBetween: 20,
+                slidesPerView: 3,
+            },
+            1200: {
+                spaceBetween: 28,
+                slidesPerView: 4,
+            }
+        }
     });
 
+    // slider3list
     document.querySelectorAll('.slider3list').forEach((swiper) => {
         const pagination = {
             el: swiper.closest('.slider-container').querySelector('.slider-pagination'),
@@ -171,11 +212,82 @@ document.addEventListener("DOMContentLoaded", function () {
             prevEl: swiper.closest('.slider-container').querySelector('.slider-button_prev'),
         };
 
+        let breakpoints = {};
+
+        if (swiper.closest('.slider-container').classList.contains('slider-container_for-btn')) {
+            breakpoints = {
+                0: {
+                    spaceBetween: 20,
+                    slidesPerView: 1,
+                },
+                700: {
+                    spaceBetween: 20,
+                    slidesPerView: 2,
+                },
+                1201: {
+                    spaceBetween: 28,
+                    slidesPerView: 3,
+                }
+            }
+        } else {
+            breakpoints = {
+                0: {
+                    spaceBetween: 12,
+                    slidesPerView: 2,
+                },
+                700: {
+                    spaceBetween: 20,
+                    slidesPerView: 3,
+                },
+                1200: {
+                    spaceBetween: 28,
+                    slidesPerView: 3,
+                }
+            }
+        }
+
+
         const slider = new Swiper(swiper, {
-            spaceBetween: 28,
-            slidesPerView: 3,
             navigation,
             pagination,
+            breakpoints,
+        });
+    });
+
+    // slider5list
+    document.querySelectorAll('.slider5list').forEach((swiper) => {
+        const pagination = {
+            el: swiper.closest('.slider-container').querySelector('.slider-pagination'),
+            type: 'bullets',
+            clickable: true,
+        }
+
+        const navigation = {
+            nextEl: swiper.closest('.slider-container').querySelector('.slider-button_next'),
+            prevEl: swiper.closest('.slider-container').querySelector('.slider-button_prev'),
+        };
+
+        const slider = new Swiper(swiper, {
+            navigation,
+            pagination,
+            breakpoints: {
+                0: {
+                    spaceBetween: 28,
+                    slidesPerView: 1,
+                },
+                700: {
+                    spaceBetween: 28,
+                    slidesPerView: 2,
+                },
+                992: {
+                    spaceBetween: 0,
+                    slidesPerView: 5,
+                },
+                1601: {
+                    spaceBetween: 28,
+                    slidesPerView: 5,
+                }
+            }
         });
     });
 

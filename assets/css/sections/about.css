@@ -5,6 +5,7 @@
 .about__img-wrapper {
     min-width: 426px;
     position: relative;
+    height: 100%;
 }
 
 .about__img {
@@ -44,24 +45,118 @@
     padding-top: 10px;
 }
 
-.about__title {
-    text-align: initial;
+.about__content h2 {
     margin-bottom: 16px;
+    font-weight: 700;
     font-size: 42px;
     line-height: 52px;
 }
 
-.about__descr {
-    margin-bottom: 24px;
-}
-
-.about__sub-title {
+.about__content h3 {
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 8px;
 }
 
-.about__sub-descr {
+.about__content p {
+    font-size: 18px;
+    line-height: 32px;
     margin-bottom: 12px;
+}
+
+@media (max-width: 1600px) {
+    .about__content {
+        margin-right: 20px;
+    }
+
+    .about__content h2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 16px;
+    }
+
+    .about__img-wrapper {
+        flex: 0 0 367px;
+        min-width: 0;
+    }
+
+    .about__img {
+        max-height: 494px;
+    }
+
+    .about__img-badge {
+        bottom: 0;
+        left: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about__container {
+        display: block;
+    }
+
+    .about__content {
+        padding-top: 0;
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+
+    .about__content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .about__img-wrapper {
+        flex: initial;
+    }
+}
+
+@media (max-width: 699px) {
+    .about__content {
+        margin-bottom: 20px;
+    }
+
+    .about__content h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .about__content h3 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 12px;
+    }
+
+    .about__content p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    .about__img-badge {
+        left: 16px;
+        bottom: -8px;
+    }
+
+    .about__img-badge-name {
+        padding: 12px 12px 47px 12px;
+        font-size: 14px;
+        line-height: 16px;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .about__img-badge-role {
+        max-width: 157px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px;
+        transform: translateY(-35px);
+        border-radius: 16px;
+    }
+
+    .about__img {
+        max-height: 404px;
+    }
 }
