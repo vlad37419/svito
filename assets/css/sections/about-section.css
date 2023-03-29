@@ -3,6 +3,11 @@
     background-color: #F5F5F5;
 }
 
+.about-section_no-padding {
+    padding: 0!important;
+    background-color: initial;
+}
+
 .about-section__title {
     text-align: initial;
     max-width: 861px;

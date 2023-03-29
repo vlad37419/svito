@@ -20,13 +20,17 @@
     margin-bottom: 12px;
 }
 
-.promo__descr {
+.promo__content p {
     margin-bottom: 32px;
     font-size: 20px;
     line-height: 32px;
 }
 
-.promo__list {
+.promo__content p:last-child {
+    margin-bottom: 0;
+}
+
+.promo__content ul {
     margin-bottom: 38px;
 }
 
@@ -137,7 +141,7 @@
         width: 100%;
     }
 
-    .promo__list {
+    .promo__content ul {
         margin-bottom: 24px;
     }
 

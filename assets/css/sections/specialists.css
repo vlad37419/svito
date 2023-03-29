@@ -53,13 +53,48 @@
     margin-bottom: 16px;
 }
 
+.specialist__btn-group {
+    display: flex;
+    padding: 0 4px;
+}
+
+.specialist_page .specialist__btn {
+    margin: 0 8px 0 0;
+    flex-grow: 1;
+}
+
+.specialist_page .specialist__btn:last-child {
+    margin-right: 0;
+}
+
 .specialist__btn {
     margin: 0 auto;
+    padding: 12px;
+}
+
+.specialist__btn .btn__text {
+    font-size: 14px;
+    line-height: 16px;
 }
 
 @media (max-width: 1600px) {
     .specialist__img {
         height: 176px;
+    }
+
+    .specialist__btn-group {
+        flex-direction: column;
+        padding: 0 40px;
+    }
+
+    .specialist_page .specialist__btn {
+        margin: 0 0 8px 0;
+        flex-grow: initial;
+        width: 100%;
+    }
+
+    .specialist_page .specialist__btn:last-child {
+        margin-bottom: 0;
     }
 }
 
@@ -75,6 +110,10 @@
         line-height: 42px;
         margin-bottom: 8px;
     }
+
+    .specialists-page__row {
+        padding: 0 80px;
+    }
 }
 
 @media (max-width: 699px) {
@@ -86,5 +125,9 @@
 
     .specialists__wrapper {
         padding: 0 35px;
+    }
+
+    .specialists-page__row {
+        padding: 0 45px;
     }
 }

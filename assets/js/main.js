@@ -1,9 +1,9 @@
-function menuOpen (menuSelector) {
+function menuOpen(menuSelector) {
     menuSelector.classList.add('active');
     document.body.classList.add('lock');
 }
 
-function menuClose (menuSelector) {
+function menuClose(menuSelector) {
     menuSelector.classList.remove('active');
     document.body.classList.remove('lock');
 }
@@ -215,6 +215,21 @@ document.addEventListener("DOMContentLoaded", function () {
         let breakpoints = {};
 
         if (swiper.closest('.slider-container').classList.contains('slider-container_for-btn')) {
+            breakpoints = {
+                0: {
+                    spaceBetween: 20,
+                    slidesPerView: 1,
+                },
+                700: {
+                    spaceBetween: 20,
+                    slidesPerView: 2,
+                },
+                1201: {
+                    spaceBetween: 28,
+                    slidesPerView: 3,
+                }
+            }
+        } else if (swiper.closest('.slider-container').classList.contains('slider-container_for-cards')) {
             breakpoints = {
                 0: {
                     spaceBetween: 20,
